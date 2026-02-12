@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X devs - La Comunidad Dev que Conecta Talentos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-container">
+                <div class="logo">X devs</div>
+                <nav class="nav">
+                    <a href="#" data-section="home">Inicio</a>
+                    <a href="#" data-section="about">Acerca de</a>
+                    <a href="#" data-section="community">Comunidad</a>
+                    <a href="#" data-section="challenges">Desafíos</a>
+                    <a href="#" data-section="projects">Proyectos</a>
+                    <a href="#" data-section="blog">Blog</a>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">🌙</button>
+                    <button class="cta-button">Login</button>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- HOME SECTION -->
+            <section id="home" class="section section-home active">
+                <div class="container">
+                    <div class="hero">
+                        <h1>Bienvenido a X devs</h1>
+                        <p>La comunidad de desarrolladores que impulsa innovación, colaboración y crecimiento técnico</p>
+                        <div class="hero-buttons">
+                            <button class="cta-button">Únete a la Comunidad</button>
+                            <button class="btn-secondary">Explorar Proyectos</button>
+                        </div>
+                        <div class="hero-image"></div>
+                    </div>
+
+                    <!-- Features Section -->
+                    <section class="features-section">
+                        <h2 class="section-title">¿Por qué participar?</h2>
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <div class="feature-icon">🚀</div>
+                                <h3>Acelera tu Crecimiento</h3>
+                                <p>Aprende con los mejores devs de la comunidad a través de talleres, artículos y discusiones técnicas profundas.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">🤝</div>
+                                <h3>Networking Activo</h3>
+                                <p>Conecta con profesionales, encuentra socios para proyectos y expande tu círculo técnico.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">💼</div>
+                                <h3>Oportunidades de Trabajo</h3>
+                                <p>Acceso a bolsa de empleos exclusiva con vacantes de las mejores empresas y startups de tecnología.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">📚</div>
+                                <h3>Recursos Educativos</h3>
+                                <p>Biblioteca completa de tutoriales, casos de estudio, documentación y cursos enfocados en prácticas reales.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">🎯</div>
+                                <h3>Proyectos Colaborativos</h3>
+                                <p>Participa en proyectos de código abierto y desafíos que impulsan tu portafolio profesional.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">🏆</div>
+                                <h3>Reconocimiento</h3>
+                                <p>Gana insignias, premios y visibilidad por tus contribuciones y logros en la comunidad.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Stats Section -->
+                    <section class="stats-section">
+                        <h2 class="section-title">Nuestra Comunidad en Números</h2>
+                        <div class="stats-grid">
+                            <div class="stat-box">
+                                <div class="stat-number">5K+</div>
+                                <div class="stat-label">Miembros Activos</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-number">150+</div>
+                                <div class="stat-label">Eventos Anuales</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">Proyectos Activos</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-number">50+</div>
+                                <div class="stat-label">Tópicos</div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <!-- ABOUT SECTION -->
+            <section id="about" class="section section-about">
+                <div class="container">
+                    <h2 class="section-title">Acerca de X devs</h2>
+                    
+                    <div class="about-content">
+                        <div class="about-text">
+                            <h3>La Historia de Nuestra Comunidad</h3>
+                            <p>X devs fue fundada en 2020 con una misión simple: conectar desarrolladores apasionados por la tecnología y crear un espacio seguro para aprendizaje, crecimiento y colaboración.</p>
+                            
+                            <p>Lo que comenzó como un pequeño grupo de amigos discutiendo sobre código evolucionó hacia una comunidad vibrante de más de 5 mil miembros activos, distribuidos por toda América Latina.</p>
+
+                            <h3>Nuestra Misión</h3>
+                            <p>Empoderar desarrolladores a través de la educación, networking y oportunidades de carrera, creando un ambiente inclusivo donde cada voz es escuchada y cada contribución es valorada.</p>
+
+                            <h3>Nuestros Valores</h3>
+                            <div class="values-list">
+                                <div class="value-item">
+                                    <strong>💡 Innovación</strong> - Siempre buscando nuevas formas de resolver problemas
+                                </div>
+                                <div class="value-item">
+                                    <strong>🤝 Colaboración</strong> - Juntos somos más fuertes
+                                </div>
+                                <div class="value-item">
+                                    <strong>📚 Aprendizaje</strong> - Nunca paramos de aprender
+                                </div>
+                                <div class="value-item">
+                                    <strong>🌍 Inclusión</strong> - Espacio para todos, sin excepciones
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-stats">
+                            <div class="about-stat">
+                                <div class="about-stat-number">4+</div>
+                                <div class="about-stat-label">Años de Existencia</div>
+                            </div>
+                            <div class="about-stat">
+                                <div class="about-stat-number">15+</div>
+                                <div class="about-stat-label">Países Atendidos</div>
+                            </div>
+                            <div class="about-stat">
+                                <div class="about-stat-number">10K+</div>
+                                <div class="about-stat-label">Personas Impactadas</div>
+                            </div>
+                            <div class="about-stat">
+                                <div class="about-stat-number">100%</div>
+                                <div class="about-stat-label">Gratuito & Abierto</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- COMMUNITY SECTION -->
+            <section id="community" class="section section-community">
+                <div class="container">
+                    <h2 class="section-title">Conoce Nuestra Comunidad</h2>
+                    
+                    <div class="members-grid">
+                        <div class="member-card">
+                            <div class="member-avatar">👨‍💻</div>
+                            <h3>Carlos Silva</h3>
+                            <div class="member-role">Fundador & Tech Lead</div>
+                            <p class="member-bio">Especialista en arquitectura de sistemas distribuidos con 10+ años de experiencia</p>
+                            <div class="member-social">
+                                <a href="#">GitHub</a>
+                                <a href="#">Twitter</a>
+                                <a href="#">LinkedIn</a>
+                            </div>
+                        </div>
+                        <div class="member-card">
+                            <div class="member-avatar">👩‍💻</div>
+                            <h3>Marina Costa</h3>
+                            <div class="member-role">Co-fundadora</div>
+                            <p class="member-bio">Enfocada en desarrollo frontend moderno y diseño UX/UI</p>
+                            <div class="member-social">
+                                <a href="#">GitHub</a>
+                                <a href="#">Twitter</a>
+                                <a href="#">LinkedIn</a>
+                            </div>
+                        </div>
+                        <div class="member-card">
+                            <div class="member-avatar">🧑‍💼</div>
+                            <h3>Rafael Santos</h3>
+                            <div class="member-role">DevOps Lead</div>
+                            <p class="member-bio">Especialista en infraestructura en la nube y automatización</p>
+                            <div class="member-social">
+                                <a href="#">GitHub</a>
+                                <a href="#">Twitter</a>
+                                <a href="#">LinkedIn</a>
+                            </div>
+                        </div>
+                        <div class="member-card">
+                            <div class="member-avatar">👨‍🔬</div>
+                            <h3>Lucas Ferreira</h3>
+                            <div class="member-role">Data Science</div>
+                            <p class="member-bio">Machine learning y análisis de datos a gran escala</p>
+                            <div class="member-social">
+                                <a href="#">GitHub</a>
+                                <a href="#">Twitter</a>
+                                <a href="#">LinkedIn</a>
+                            </div>
+                        </div>
+                        <div class="member-card">
+                            <div class="member-avatar">👩‍🚀</div>
+                            <h3>Ana Oliveira</h3>
+                            <div class="member-role">Community Manager</div>
+                            <p class="member-bio">Conectando talentos y creando oportunidades en la comunidad</p>
+                            <div class="member-social">
+                                <a href="#">GitHub</a>
+                                <a href="#">Twitter</a>
+                                <a href="#">LinkedIn</a>
+                            </div>
+                        </div>
+                        <div class="member-card">
+                            <div class="member-avatar">🎨</div>
+                            <h3>Felipe Rocha</h3>
+                            <div class="member-role">UX/UI Designer</div>
+                            <p class="member-bio">Creando experiencias increíbles e interfaces memorables</p>
+                            <div class="member-social">
+                                <a href="#">GitHub</a>
+                                <a href="#">Twitter</a>
+                                <a href="#">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CHALLENGES SECTION -->
+            <section id="challenges" class="section section-challenges">
+                <div class="container">
+                    <h2 class="section-title">Desafíos Activos</h2>
+                    
+                    <div class="challenges-list">
+                        <div class="challenge-card">
+                            <div class="challenge-header">
+                                <div>
+                                    <h3>30 Días de React</h3>
+                                    <p class="challenge-difficulty">Nivel: Intermedio</p>
+                                </div>
+                                <div class="challenge-badge">Activo</div>
+                            </div>
+                            <p class="challenge-description">Completa un proyecto cada día durante 30 días. Desde conceptos básicos hasta patrones avanzados en React, mejora tus habilidades gradualmente.</p>
+                            <div class="challenge-stats">
+                                <span class="stat-item">👥 1,250 participantes</span>
+                                <span class="stat-item">🏆 150 completados</span>
+                                <span class="stat-item">⏰ 15 días restantes</span>
+                            </div>
+                            <div class="challenge-tags">
+                                <span class="tag-challenge">React</span>
+                                <span class="tag-challenge">JavaScript</span>
+                                <span class="tag-challenge">Frontend</span>
+                            </div>
+                            <button class="btn-challenge">Participar</button>
+                        </div>
+
+                        <div class="challenge-card">
+                            <div class="challenge-header">
+                                <div>
+                                    <h3>API REST Masterclass</h3>
+                                    <p class="challenge-difficulty">Nivel: Avanzado</p>
+                                </div>
+                                <div class="challenge-badge">Activo</div>
+                            </div>
+                            <p class="challenge-description">Diseña y construye una API REST completa desde cero. Incluye autenticación, validaciones, testing y documentación profesional.</p>
+                            <div class="challenge-stats">
+                                <span class="stat-item">👥 850 participantes</span>
+                                <span class="stat-item">🏆 95 completados</span>
+                                <span class="stat-item">⏰ 22 días restantes</span>
+                            </div>
+                            <div class="challenge-tags">
+                                <span class="tag-challenge">Backend</span>
+                                <span class="tag-challenge">Node.js</span>
+                                <span class="tag-challenge">API</span>
+                            </div>
+                            <button class="btn-challenge">Participar</button>
+                        </div>
+
+                        <div class="challenge-card">
+                            <div class="challenge-header">
+                                <div>
+                                    <h3>Algorítmos & Estructuras de Datos</h3>
+                                    <p class="challenge-difficulty">Nivel: Júnior</p>
+                                </div>
+                                <div class="challenge-badge">Activo</div>
+                            </div>
+                            <p class="challenge-description">Resuelve 50 problemas de programación enfocados en algoritmos y estructuras de datos. Perfect para entrevistas técnicas.</p>
+                            <div class="challenge-stats">
+                                <span class="stat-item">👥 2,100 participantes</span>
+                                <span class="stat-item">🏆 520 completados</span>
+                                <span class="stat-item">⏰ 35 días restantes</span>
+                            </div>
+                            <div class="challenge-tags">
+                                <span class="tag-challenge">Algoritmos</span>
+                                <span class="tag-challenge">Python</span>
+                                <span class="tag-challenge">Estructuras de Datos</span>
+                            </div>
+                            <button class="btn-challenge">Participar</button>
+                        </div>
+
+                        <div class="challenge-card">
+                            <div class="challenge-header">
+                                <div>
+                                    <h3>DevOps en la Nube</h3>
+                                    <p class="challenge-difficulty">Nivel: Avanzado</p>
+                                </div>
+                                <div class="challenge-badge">Activo</div>
+                            </div>
+                            <p class="challenge-description">Implementa una aplicación completa en Kubernetes, configura CI/CD y maneja infraestructura con Terraform.</p>
+                            <div class="challenge-stats">
+                                <span class="stat-item">👥 450 participantes</span>
+                                <span class="stat-item">🏆 45 completados</span>
+                                <span class="stat-item">⏰ 28 días restantes</span>
+                            </div>
+                            <div class="challenge-tags">
+                                <span class="tag-challenge">DevOps</span>
+                                <span class="tag-challenge">Kubernetes</span>
+                                <span class="tag-challenge">Cloud</span>
+                            </div>
+                            <button class="btn-challenge">Participar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROJECTS SECTION -->
+            <section id="projects" class="section section-projects">
+                <div class="container">
+                    <h2 class="section-title">Proyectos Destacados</h2>
+                    
+                    <div class="projects-filters">
+                        <input type="text" class="filter-input" placeholder="Buscar proyectos...">
+                        <select class="filter-select">
+                            <option value="">Todos los Estados</option>
+                            <option value="active">Activo</option>
+                            <option value="completed">Completado</option>
+                            <option value="planning">Planeación</option>
+                        </select>
+                        <select class="filter-select">
+                            <option value="">Todas las Tecnologías</option>
+                            <option value="react">React</option>
+                            <option value="nodejs">Node.js</option>
+                            <option value="python">Python</option>
+                            <option value="devops">DevOps</option>
+                        </select>
+                    </div>
+
+                    <div class="projects-list">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <div>
+                                    <h3>Dashboard Analytics Pro</h3>
+                                    <p class="project-org">📦 X devs Open Source</p>
+                                </div>
+                                <div class="project-status status-active">Activo</div>
+                            </div>
+                            <p class="project-description">Un dashboard interactivo de análisis en tiempo real. Visualiza métricas de tu aplicación con gráficos hermosos y actualizaciones en vivo.</p>
+                            <div class="project-stats">
+                                <span class="stat-item">⭐ 1,250 stars</span>
+                                <span class="stat-item">👥 45 contribuidores</span>
+                                <span class="stat-item">📝 250 commits</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag-project">React</span>
+                                <span class="tag-project">TypeScript</span>
+                                <span class="tag-project">D3.js</span>
+                            </div>
+                            <div class="project-footer">
+                                <button class="btn-project">Ver en GitHub</button>
+                                <button class="btn-project-secondary">Contribuir</button>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <div>
+                                    <h3>API Framework Security</h3>
+                                    <p class="project-org">📦 X devs Open Source</p>
+                                </div>
+                                <div class="project-status status-active">Activo</div>
+                            </div>
+                            <p class="project-description">Framework seguro para construir APIs REST. Incluye autenticación JWT, validaciones automáticas y protección contra vulnerabilidades comunes.</p>
+                            <div class="project-stats">
+                                <span class="stat-item">⭐ 890 stars</span>
+                                <span class="stat-item">👥 32 contribuidores</span>
+                                <span class="stat-item">📝 180 commits</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag-project">Node.js</span>
+                                <span class="tag-project">Express</span>
+                                <span class="tag-project">Security</span>
+                            </div>
+                            <div class="project-footer">
+                                <button class="btn-project">Ver en GitHub</button>
+                                <button class="btn-project-secondary">Contribuir</button>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <div>
+                                    <h3>Data Processing Pipeline</h3>
+                                    <p class="project-org">📦 X devs Open Source</p>
+                                </div>
+                                <div class="project-status status-planning">Planeación</div>
+                            </div>
+                            <p class="project-description">Pipeline escalable para procesar datos masivos. Orquestación con Airflow, procesamiento con Spark y almacenamiento en datos lake.</p>
+                            <div class="project-stats">
+                                <span class="stat-item">⭐ 340 stars</span>
+                                <span class="stat-item">👥 18 contribuidores</span>
+                                <span class="stat-item">📝 95 commits</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag-project">Python</span>
+                                <span class="tag-project">Spark</span>
+                                <span class="tag-project">Big Data</span>
+                            </div>
+                            <div class="project-footer">
+                                <button class="btn-project">Ver en GitHub</button>
+                                <button class="btn-project-secondary">Contribuir</button>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <div>
+                                    <h3>Infrastructure as Code Toolkit</h3>
+                                    <p class="project-org">📦 X devs Open Source</p>
+                                </div>
+                                <div class="project-status status-completed">Completado</div>
+                            </div>
+                            <p class="project-description">Colección de módulos Terraform reutilizables. Desplega infraestructura en AWS, GCP y Azure de manera consistente y reproducible.</p>
+                            <div class="project-stats">
+                                <span class="stat-item">⭐ 720 stars</span>
+                                <span class="stat-item">👥 28 contribuidores</span>
+                                <span class="stat-item">📝 145 commits</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag-project">Terraform</span>
+                                <span class="tag-project">DevOps</span>
+                                <span class="tag-project">Cloud</span>
+                            </div>
+                            <div class="project-footer">
+                                <button class="btn-project">Ver en GitHub</button>
+                                <button class="btn-project-secondary">Contribuir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BLOG SECTION -->
+            <section id="blog" class="section section-blog">
+                <div class="container">
+                    <h2 class="section-title">Últimos Artículos del Blog</h2>
+                    
+                    <div class="blog-grid">
+                        <article class="blog-card">
+                            <div class="blog-image">
+                                <span class="blog-category">React</span>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-date">12 Feb, 2024</span>
+                                    <span class="blog-author">Por Carlos Silva</span>
+                                </div>
+                                <h3>Hooks Personalizados: Guía Completa</h3>
+                                <p>Aprende cómo crear tus propios hooks en React para reutilizar lógica entre componentes de forma elegante y eficiente.</p>
+                                <a href="#" class="blog-read-more">Leer más →</a>
+                            </div>
+                        </article>
+
+                        <article class="blog-card">
+                            <div class="blog-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                                <span class="blog-category">Backend</span>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-date">10 Feb, 2024</span>
+                                    <span class="blog-author">Por Marina Costa</span>
+                                </div>
+                                <h3>Arquitectura de Microservicios con Node.js</h3>
+                                <p>Descubre cómo implementar una arquitectura escalable usando microservicios, APIs RESTful y comunicación asíncrona.</p>
+                                <a href="#" class="blog-read-more">Leer más →</a>
+                            </div>
+                        </article>
+
+                        <article class="blog-card">
+                            <div class="blog-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                                <span class="blog-category">DevOps</span>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-date">08 Feb, 2024</span>
+                                    <span class="blog-author">Por Rafael Santos</span>
+                                </div>
+                                <h3>Docker y Kubernetes para Principiantes</h3>
+                                <p>Una guía paso a paso para entender la containerización, orquestación y cómo deployar tus aplicaciones en producción.</p>
+                                <a href="#" class="blog-read-more">Leer más →</a>
+                            </div>
+                        </article>
+
+                        <article class="blog-card">
+                            <div class="blog-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                                <span class="blog-category">Rendimiento</span>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-date">05 Feb, 2024</span>
+                                    <span class="blog-author">Por Lucas Ferreira</span>
+                                </div>
+                                <h3>Optimizando Rendimiento: Core Web Vitals</h3>
+                                <p>Entiende los Core Web Vitals de Google y aprende técnicas prácticas para mejorar el rendimiento de tu sitio.</p>
+                                <a href="#" class="blog-read-more">Leer más →</a>
+                            </div>
+                        </article>
+
+                        <article class="blog-card">
+                            <div class="blog-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                                <span class="blog-category">Carrera</span>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-date">03 Feb, 2024</span>
+                                    <span class="blog-author">Por Ana Oliveira</span>
+                                </div>
+                                <h3>Cómo Conseguir tu Primer Empleo en Tech</h3>
+                                <p>Consejos prácticos y estrategias comprobadas para conseguir tu primera vacante como desarrollador. Entrevistas, portafolio y networking.</p>
+                                <a href="#" class="blog-read-more">Leer más →</a>
+                            </div>
+                        </article>
+
+                        <article class="blog-card">
+                            <div class="blog-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                                <span class="blog-category">Tips</span>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="blog-date">01 Feb, 2024</span>
+                                    <span class="blog-author">Por Felipe Rocha</span>
+                                </div>
+                                <h3>5 Herramientas que Todo Dev Debería Conocer</h3>
+                                <p>Herramientas esenciales que aumentarán tu productividad y mejorarán tu flujo de trabajo como desarrollador.</p>
+                                <a href="#" class="blog-read-more">Leer más →</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h4>X devs</h4>
+                        <p>Conectando talentos e impulsando carreras en tecnología.</p>
+                        <div class="social-links">
+                            <a href="#" title="GitHub">Gh</a>
+                            <a href="#" title="Twitter">Tw</a>
+                            <a href="#" title="Discord">Di</a>
+                            <a href="#" title="LinkedIn">Li</a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Comunidad</h4>
+                        <a href="#">Acerca de</a>
+                        <a href="#">Código de Conducta</a>
+                        <a href="#">Miembros</a>
+                        <a href="#">Proyectos</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Recursos</h4>
+                        <a href="#">Blog</a>
+                        <a href="#">Documentación</a>
+                        <a href="#">Tutoriales</a>
+                        <a href="#">Foro</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Soporte</h4>
+                        <a href="#">Contacto</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Privacidad</a>
+                        <a href="#">Términos</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 X devs. Construyendo el futuro, juntos. 🚀</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
