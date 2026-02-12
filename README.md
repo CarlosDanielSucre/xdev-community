@@ -332,4 +332,4 @@ This project is maintained by the X devs community.
 ---
 
 
-Visit: [x-devs.com](https://x-devs.com)  
+Visit: [x-devs.com]([https://x-devs.com](https://carlosdanielsucre.github.io/xdev-community/))
